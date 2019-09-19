@@ -1,0 +1,1 @@
+{"version":3,"sources":["photos.css","header.css"],"names":[],"mappings":"AAAA,IACI,aAAc,CACd,cACJ,CCHA,GACI,aACJ","file":"main.21cbb792.chunk.css","sourcesContent":["img {\n    max-width: 40%;\n    max-height: 40%;\n}","h1 {\n    color: deeppink\n}"]}
