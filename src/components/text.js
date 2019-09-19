@@ -7,7 +7,7 @@ class text extends Component {
         return(
             <div>
                 <p>
-                    Hugrún og Jóhanna hafa verið óaðskiljanlegar síðan sumarið 2017.
+                    Ég heiti Jóhanna og er tölvunarfræðingur.
                 </p>
                 <NavLink exact to = "/hugga"> Klikka hér </NavLink>
             </div>

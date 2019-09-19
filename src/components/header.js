@@ -7,7 +7,7 @@ class header extends Component {
         return(
             <div>
                 <h1>
-                    Um okkur
+                    Um mig
                 </h1>
             </div>
         )
