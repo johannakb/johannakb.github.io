@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import {connect} from 'react-redux';
-//import Sidebar from "./components/Sidebar.1";
+import './App.css';
+import {connect} from 'react-redux'
+import Sidebar from './components/sidebar'
 import Home from './components/home'
 import About from './components/about'
 //import Education from '/components/education'
@@ -14,6 +15,7 @@ class App extends Component {
         return(
             <div id="colorlib-page">
                 <div id="container-wrap">
+                    <Sidebar></Sidebar>
 				        <div id="colorlib-main">
 					        <Home></Home>
 					        <About></About>
