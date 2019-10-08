@@ -15,11 +15,12 @@ export default class Sidebar extends Component {
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
-                  <li className="active"><a href="#home" data-nav-section="home">Home</a></li>
-                  <li><a href="#about" data-nav-section="about">About</a></li>
+                  <li className="active"><a href="#home" data-nav-section="home">Heim</a></li>
+                  <li><a href="#about" data-nav-section="about">Um mig</a></li>
                   {/*<li><a href="#" data-nav-section="projects">Projects</a></li>
                   <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
-                  <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li>
+                  <li><a href="#education" data-nav-section="education">Menntun</a></li>
+                  <li><a href="#experience" data-nav-section="experience">Reynsla</a></li>
                 </ul>
               </div>
             </nav>
@@ -34,11 +35,8 @@ export default class Sidebar extends Component {
             </nav>
             <div className="colorlib-footer">
               <p><small>
-                  Made with <i className="icon-heart" aria-hidden="true" /> and <i className="icon-beer" aria-hidden="true"></i><br></br>
-                  Thanks <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a> for inspiration 
-              </small></p>
-              <p><small>
-                Something coming soon !!!
+                  Búið til með <i className="icon-heart" aria-hidden="true" /> and <i className="icon-beer" aria-hidden="true"></i><br></br>
+                  Template frá <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a> 
               </small></p>
             </div>
           </aside>
